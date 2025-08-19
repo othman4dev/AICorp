@@ -8,7 +8,7 @@ class SocketService {
 
   connect(serverUrl = 'http://167.71.242.221:3001') {
     console.log('🔄 SocketService: Attempting to connect to', serverUrl);
-    
+
     if (this.socket) {
       console.log('🔗 SocketService: Socket already exists, checking connection status...');
       console.log('📊 SocketService: Connected:', this.socket.connected);
@@ -74,7 +74,7 @@ class SocketService {
   // Message handling
   sendHumanMessage(message, author = 'Human') {
     if (this.socket) {
-      this.socket.emit('human-message', { message, author });
+        this.socket.emit('message', { content: message, sender: author });
     }
   }
 
@@ -178,5 +178,3 @@ class SocketService {
 }
 
 export const socketService = new SocketService();
-
-

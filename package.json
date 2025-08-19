@@ -1,0 +1,27 @@
+{
+  "name": "multi-agent-dev-team-simulator",
+  "version": "1.0.0",
+  "description": "Multi-Agent Development Team Simulator with AI agents and GitHub integration",
+  "scripts": {
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "keywords": [
+    "ai",
+    "chatbot",
+    "development-team",
+    "simulation",
+    "react",
+    "nodejs",
+    "socket.io"
+  ],
+  "author": "AICorp Dev Team",
+  "license": "MIT"
+}

@@ -12,12 +12,31 @@ const app = express();
 const server = createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:5173", // Vite default port
-    methods: ["GET", "POST"]
-  }
+    origin: [
+      "http://localhost:5173",        // Local development
+      "http://localhost:3001",        // Alternative local port
+      "http://167.71.242.221:5173",       // Replace with your VM's actual IP
+      "http://167.71.242.221:3001",       // Alternative VM port
+      "*"                             // Allow all origins (temporary for testing)
+    ],
+    methods: ["GET", "POST"],
+    credentials: true
+  },
+  allowEIO3: true
 });
 
-app.use(cors());
+// Update Express CORS as well
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "http://localhost:3001", 
+    "http://167.71.242.221:5173",
+    "http://167.71.242.221:3001",
+    "*"  // Allow all origins (temporary for testing)
+  ],
+  credentials: true
+}));
+
 app.use(express.json());
 
 // Initialize services
@@ -182,9 +201,18 @@ app.get('/api/chat/history', async (req, res) => {
   }
 });
 
+
 const PORT = process.env.PORT || 3001;
 
-server.listen(PORT, () => {
-  console.log(`🚀 Server running on http://localhost:${PORT}`);
+server.listen(PORT, '0.0.0.0', () => {  // Add '0.0.0.0' here
+  console.log(`🚀 Server running on http://0.0.0.0:${PORT}`);
+  console.log(`🌐 Access via: http://167.71.242.221:${PORT}`);
   console.log(`📡 Socket.IO server ready`);
+});
+
+io.engine.on("connection_error", (err) => {
+  console.log('❌ Socket.IO Connection Error:');
+  console.log('- Error Code:', err.code);
+  console.log('- Error Message:', err.message);
+  console.log('- Request URL:', err.req?.url);
 });

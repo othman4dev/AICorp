@@ -17,7 +17,7 @@ class SocketService {
     }
 
     this.socket = io(serverUrl, {
-      transports: ['websocket', 'polling'],
+      transports: ['polling', 'websocket'],
       autoConnect: true,
       reconnection: true,
       reconnectionDelay: 1000,
@@ -178,3 +178,4 @@ class SocketService {
 }
 
 export const socketService = new SocketService();
+

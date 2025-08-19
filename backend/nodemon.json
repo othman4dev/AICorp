@@ -1,0 +1,7 @@
+{
+  "watch": ["src/"],
+  "ext": "js,json",
+  "ignore": ["node_modules/", "database.json"],
+  "delay": "2000",
+  "verbose": true
+}

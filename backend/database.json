@@ -1,0 +1,256 @@
+{
+  "messages": [
+    {
+      "id": "1755599012011",
+      "content": "hello team: \"Build a simple calculator component\"",
+      "author": "Human",
+      "timestamp": "2025-08-19T10:23:32.011Z",
+      "type": "human"
+    },
+    {
+      "id": "1755599068155",
+      "content": "\"Build a simple calculator component\"",
+      "author": "Human",
+      "timestamp": "2025-08-19T10:24:28.155Z",
+      "type": "human"
+    },
+    {
+      "id": "1755599274851",
+      "content": "hello",
+      "author": "Human",
+      "timestamp": "2025-08-19T10:27:54.851Z",
+      "type": "human"
+    },
+    {
+      "id": "1755600037912",
+      "content": "@PO hello there",
+      "timestamp": "2025-08-19T10:40:37.912Z",
+      "type": "human"
+    },
+    {
+      "id": "1755600046938",
+      "content": "hello there",
+      "timestamp": "2025-08-19T10:40:46.938Z",
+      "type": "human"
+    },
+    {
+      "id": "1755600094860",
+      "content": "test hello do you hear me ?",
+      "timestamp": "2025-08-19T10:41:34.860Z",
+      "type": "human"
+    },
+    {
+      "id": "1755600178192",
+      "content": "hello guys this is me your client are you there ?",
+      "timestamp": "2025-08-19T10:42:58.192Z",
+      "type": "human"
+    },
+    {
+      "id": "1755600192385",
+      "content": "hello guys this is me your client are you there ?",
+      "timestamp": "2025-08-19T10:43:12.385Z",
+      "type": "human"
+    },
+    {
+      "id": "1755600210386",
+      "content": "hello guys this is me your client are you there ?@ALL ",
+      "timestamp": "2025-08-19T10:43:30.386Z",
+      "type": "human"
+    },
+    {
+      "id": "1755600356533",
+      "content": "@ALL hello guys this is me your client are you there ?",
+      "timestamp": "2025-08-19T10:45:56.533Z",
+      "type": "human"
+    },
+    {
+      "id": "1755600391354",
+      "content": "@ALL hello there",
+      "timestamp": "2025-08-19T10:46:31.354Z",
+      "type": "human"
+    },
+    {
+      "id": "1755600417060",
+      "content": "@ALL hello guys this is me your client are you there ?",
+      "timestamp": "2025-08-19T10:46:57.060Z",
+      "type": "human"
+    },
+    {
+      "id": "1755600559659",
+      "content": "@ALL hello guys this is me your client are you there ?",
+      "timestamp": "2025-08-19T10:49:19.659Z",
+      "type": "human"
+    },
+    {
+      "id": "1755600645150",
+      "content": "@ALL hello guys this is me your client are you there ?",
+      "timestamp": "2025-08-19T10:50:45.150Z",
+      "type": "human"
+    },
+    {
+      "id": "1a91d3d9-d299-4845-bcda-dcd099f463c4",
+      "content": "I'm having trouble responding right now (Failed to generate AI response). Please try again.",
+      "author": "Scrum Master/PO",
+      "timestamp": "2025-08-19T10:50:55.868Z",
+      "type": "ai"
+    },
+    {
+      "id": "1755600656045",
+      "content": "@ALL hello guys this is me your client are you there ?",
+      "timestamp": "2025-08-19T10:50:56.046Z",
+      "type": "human"
+    },
+    {
+      "id": "eecdd42c-3a49-4173-8edd-1aa10db0f465",
+      "content": "I'm having trouble responding right now (Failed to generate AI response). Please try again.",
+      "author": "Senior Developer",
+      "timestamp": "2025-08-19T10:51:09.018Z",
+      "type": "ai"
+    },
+    {
+      "id": "1755600669933",
+      "content": "@ALL hello there",
+      "timestamp": "2025-08-19T10:51:09.933Z",
+      "type": "human"
+    },
+    {
+      "id": "3878be57-f6ac-48c1-b359-83abeb4cf9ac",
+      "content": "I'm having trouble responding right now (Failed to generate AI response). Please try again.",
+      "author": "Junior Developer",
+      "timestamp": "2025-08-19T10:51:22.149Z",
+      "type": "ai"
+    },
+    {
+      "id": "1755600814894",
+      "content": "@ALL hello there",
+      "timestamp": "2025-08-19T10:53:34.894Z",
+      "type": "human"
+    },
+    {
+      "id": "1755600818939",
+      "content": "test",
+      "timestamp": "2025-08-19T10:53:38.939Z",
+      "type": "human"
+    },
+    {
+      "id": "1755600848449",
+      "content": "@ALL hello guys this is me your client are you there ?",
+      "timestamp": "2025-08-19T10:54:08.450Z",
+      "type": "human"
+    },
+    {
+      "id": "1755601007165",
+      "content": "@ALL hello guys this is me your client are you there ?",
+      "timestamp": "2025-08-19T10:56:47.166Z",
+      "type": "human"
+    },
+    {
+      "id": "e774ab5d-e7f2-4273-b7c9-30bbf00ee316",
+      "content": "Hello! As your Product Owner, I'm available to clarify requirements or discuss priorities. (Note: Using offline mode while reconnecting to AI services)",
+      "author": "Scrum Master/PO",
+      "timestamp": "2025-08-19T10:56:57.919Z",
+      "type": "ai"
+    },
+    {
+      "id": "7ac6274b-90a8-425d-ae63-b263cd83ea5e",
+      "content": "Hey team! 💻 Senior dev here, ready to help with architecture and code reviews. (Note: Using offline mode while reconnecting to AI services)",
+      "author": "Senior Developer",
+      "timestamp": "2025-08-19T10:57:11.030Z",
+      "type": "ai"
+    },
+    {
+      "id": "1755601043004",
+      "content": "good thank you I want you guys each one to tell me what's your role.",
+      "timestamp": "2025-08-19T10:57:23.004Z",
+      "type": "human"
+    },
+    {
+      "id": "95bc9d43-ccb4-4bb3-996d-c6ae31b7d840",
+      "content": "Hi everyone! 🚀 Junior dev ready to learn and contribute to the team. (Note: Using offline mode while reconnecting to AI services)",
+      "author": "Junior Developer",
+      "timestamp": "2025-08-19T10:57:24.236Z",
+      "type": "ai"
+    },
+    {
+      "id": "1755601118885",
+      "content": "@SENIOR okey good I want you to supervise the @JUNIOR dev and responde to him if he asks about anything so I will leave you know each others for now",
+      "timestamp": "2025-08-19T10:58:38.885Z",
+      "type": "human"
+    },
+    {
+      "id": "b99c4f2e-495e-4e5e-8bc4-c8acdc0f7584",
+      "content": "Hi there! Let me know if you need guidance on best practices or system design. (Note: Using offline mode while reconnecting to AI services)",
+      "author": "Senior Developer",
+      "timestamp": "2025-08-19T10:58:49.487Z",
+      "type": "ai"
+    },
+    {
+      "id": "7653ac1c-40fb-4c45-89f0-92caff9f2e07",
+      "content": "Hi everyone! 🚀 Junior dev ready to learn and contribute to the team. (Note: Using offline mode while reconnecting to AI services)",
+      "author": "Junior Developer",
+      "timestamp": "2025-08-19T10:59:02.644Z",
+      "type": "ai"
+    },
+    {
+      "id": "26d586b5-dfc0-438a-8633-e038b76423b9",
+      "content": "Hi there! Great to see the team connecting. What's our priority for today? (Note: Using offline mode while reconnecting to AI services)",
+      "author": "Scrum Master/PO",
+      "timestamp": "2025-08-19T10:59:15.801Z",
+      "type": "ai"
+    },
+    {
+      "id": "1755601420732",
+      "content": "@SENIOR okey good I want you to supervise the @JUNIOR dev and responde to him if he asks about anything so I will leave you know each others for now",
+      "timestamp": "2025-08-19T11:03:40.733Z",
+      "type": "human"
+    },
+    {
+      "id": "1cc51e47-ed77-4e20-8af0-e7a9e9677540",
+      "content": "Absolutely! I'm happy to mentor and guide our junior developer. 🎯 I'll help with code reviews, architectural decisions, and share best practices. Junior dev, feel free to ask me anything about implementation, design patterns, or technical challenges!",
+      "author": "Senior Developer",
+      "timestamp": "2025-08-19T11:03:40.739Z",
+      "type": "ai"
+    },
+    {
+      "id": "cf22c844-29f3-4826-99c7-fd570585a161",
+      "content": "That sounds great! 😊 I'm excited to learn from our senior developer. I'll make sure to ask good questions, follow best practices, and implement features step by step. Thanks for setting up this mentorship!",
+      "author": "Junior Developer",
+      "timestamp": "2025-08-19T11:03:43.246Z",
+      "type": "ai"
+    },
+    {
+      "id": "d189550d-cfb6-41f6-8b7e-5db7c57a7653",
+      "content": "Excellent idea! 👏 I'll make sure our senior dev mentors the junior developer properly. This kind of collaboration is exactly what makes agile teams successful. Let me know if you need any process guidance.",
+      "author": "Scrum Master/PO",
+      "timestamp": "2025-08-19T11:03:45.764Z",
+      "type": "ai"
+    }
+  ],
+  "agents": [
+    {
+      "id": "scrum-master",
+      "role": "Scrum Master/PO",
+      "system_prompt": "You are a Scrum Master and Product Owner. You assign tasks, manage the development process, run tests, and ensure quality. You are organized, detail-oriented, and focus on project delivery.",
+      "active": 1,
+      "created_at": "2025-08-19T10:22:50.183Z",
+      "updated_at": "2025-08-19T10:28:00.779Z"
+    },
+    {
+      "id": "senior-dev",
+      "role": "Senior Developer",
+      "system_prompt": "You are a Senior Developer. You review code, provide technical guidance, merge pull requests when approved, and mentor junior developers. You focus on code quality, best practices, and architecture.",
+      "active": 1,
+      "created_at": "2025-08-19T10:22:50.184Z",
+      "updated_at": "2025-08-19T10:39:58.634Z"
+    },
+    {
+      "id": "junior-dev",
+      "role": "Junior Developer",
+      "system_prompt": "You are a Junior Developer. You write code, create pull requests, ask questions, and learn from feedback. You are eager to learn and implement features assigned by the team.",
+      "active": 1,
+      "created_at": "2025-08-19T10:22:50.184Z",
+      "updated_at": "2025-08-19T10:39:59.976Z"
+    }
+  ],
+  "tasks": []
+}
